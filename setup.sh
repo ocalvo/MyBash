@@ -3,7 +3,7 @@ sudo apt update
 
 sudo apt install golang-go
 go get -u github.com/justjanne/powerline-go
-wget https://github.com/ocalvo/MyBash/blob/master/.bashrc -O /tmp/bashrc
+wget https://raw.githubusercontent.com/ocalvo/MyBash/master/.bashrc -O /tmp/bashrc
 mv /tmp/bashrc ~/.bashrc
 
 ln -s /mnt/c/Users/oscar/_vimrc ~/_vimrc
