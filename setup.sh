@@ -18,6 +18,7 @@ git config --global user.name "Oscar Calvo"
 git config --global user.email "oscar@calvonet.com"
 git config --global log.date local
 git config --global core.autocrlf false
+git config --global credential.helper store
 
 git config --global diff.tool bc
 git config --global difftool.prompt false
